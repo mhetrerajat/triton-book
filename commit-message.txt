@@ -1,0 +1,9 @@
+feat: setup Triton Book website with automated deployment
+
+- Configure Astro with Triton Book branding and GitHub Pages settings
+- Add site URL and base path for proper GitHub Pages deployment
+- Create GitHub Actions workflow for automatic deployment on push to main
+- Update README with project information and deployment instructions
+- Enhance .gitignore with comprehensive patterns for Astro projects
+
+BREAKING CHANGE: None
