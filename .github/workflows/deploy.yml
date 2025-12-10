@@ -35,6 +35,8 @@ jobs:
         run: pnpm install
 
       - name: Build Astro site
+        env:
+          PUBLIC_GOOGLE_ANALYTICS_ID: ${{ secrets.PUBLIC_GOOGLE_ANALYTICS_ID }}
         run: pnpm build
 
       - name: Upload Pages Artifact
